@@ -22,6 +22,7 @@ Un sistema de **C-level advisors** (CTO, CFO, CMO, Product Owner, Competitive An
 claude-advisors-starter/
 ├── README.md                    ← estás acá
 ├── INSTALL.md                   ← cómo instalarlo en tu .claude/
+├── CREATING-ADVISORS.md         ← MANUAL COMPLETO para crear tus propios advisors
 ├── skills-recommended.md        ← skills de terceros que uso (con links a los creadores)
 ├── advisors/
 │   ├── TEMPLATE.md              ← plantilla vacía para crear un advisor nuevo
@@ -77,8 +78,9 @@ type: reference
 
 1. Leé [`INSTALL.md`](./INSTALL.md) para meter los advisors en tu `.claude/projects/<tu-proyecto>/memory/`
 2. Adaptá los advisors de ejemplo a tu producto (reemplazá los placeholders `<TU_PRODUCTO>`, `<TU_MERCADO>`, etc.)
-3. Para crear advisors nuevos, seguí [`advisors/PROMPT-RESEARCH.md`](./advisors/PROMPT-RESEARCH.md)
-4. Para skills externas que uso, mirá [`skills-recommended.md`](./skills-recommended.md)
+3. **Para crear advisors nuevos (manual end-to-end):** leé [`CREATING-ADVISORS.md`](./CREATING-ADVISORS.md) — el manual completo con las 4 fases, 6 patrones avanzados, 10 errores comunes y catálogo de 30+ roles posibles
+4. Si solo querés el prompt-receta para spawneear research: [`advisors/PROMPT-RESEARCH.md`](./advisors/PROMPT-RESEARCH.md)
+5. Para skills externas que uso, mirá [`skills-recommended.md`](./skills-recommended.md)
 
 ---
 
